@@ -1,4 +1,4 @@
-# Curso de JavaScript e Typescript do Básico ao Avançado oferecido pela Udemy
+# Curso de JavaScript e TypeScript do Básico ao Avançado oferecido pela Udemy
 Professor: Luiz Otávio Miranda
 
 Curso de JavaScript e TypeScript do básico ao avançado - O curso mais completo sobre todas as nuances do JavaScript na atualidade.  Javascript moderno (ES6+) para front-end (com Webpack, babel, React, React Hooks, Redux, HTML5, CSS3 e mais) e back-end (com Node, Express, MySQL / MariaDB, MongoDB, PostgreSQL, Next.Js, Strapi e mais) e para se tornar um(a) desenvolvedor(a) full stack.
