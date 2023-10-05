@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #00085d;
+    --primary-color-darker: #00043c;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto; /* deixa o conteúdo no centro */
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  td:nth-child(1) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  td:nth-child(2) {
+    padding-left: 50px; 
+    padding-right: 50px; 
+  }
+
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 30px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover{ 
+    background: var(--primary-color-darker);
+}
+
+form button:active {
+    background: #5c7aff;
+}
+
+.p-resultado, .incorreto{
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.p-resultado {
+    color: #ffffff;
+    background: #0008ff;
+}
+
+.incorreto {
+    color: #ffffff;
+    background: #ff0000;
+}
